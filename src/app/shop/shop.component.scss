@@ -79,12 +79,12 @@
     width: 100%;
     padding: 10px 0;
     border-radius: 5px;
-    background-color: mat.get-color-from-palette(mat.$pink-palette, A100);
+   // background-color: mat.get-color-from-palette(mat.$pink-palette, A100);
 
     // TODO: #12. Enable HighContrast mode
     @include cdk.high-contrast() {
-      outline: solid 1px;
-      background-color: mat.get-color-from-palette(mat.$pink-palette, 50);
+      outline: solid 20px;
+      background-color: white;
     }
 
     text-align: center;
@@ -103,12 +103,13 @@
   }
 
   .purchase-button {
-    background-color: mat.get-color-from-palette(mat.$light-green-palette, A100);
+   // background-color: mat.get-color-from-palette(mat.$light-green-palette, A100);
 
     // TODO: #12. Enable HighContrast mode
     @include cdk.high-contrast() {
-      // outline: solid 1px;
-      // background-color: mat.get-color-from-palette(mat.$light-green-palette, 50);
+       outline: solid 20px;
+       background-color: white;
     }
   }
+
 }

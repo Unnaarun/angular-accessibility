@@ -29,6 +29,10 @@ export class ShopComponent implements OnInit {
   fillings: string[] = ['Bok Choy & Chili Crunch', 'Tofu & Mushroom', 'Chicken & Ginger', 'Impossible Meat & Spinach'];
   selectedFillings: string[] = [];
 
+  email: string = "";
+  firstname: string = "";
+
+
   // TODO: #11. Announce changes with LiveAnnouncer
   constructor(private liveAnnouncer: LiveAnnouncer) { }
 
@@ -56,4 +60,14 @@ export class ShopComponent implements OnInit {
     // TODO: #11. Announce changes with LiveAnnouncer
     this.liveAnnouncer.announce(fakePurchase);
   }
+
+
+ /* keytab(event): void {
+    let currentElementValue = event.currentTarget.value; // get the current element value
+
+    if (currentElementValue)  // check if its null/blank
+      event.currentTarget.nextElementSibling.focus //focus next element
+    else
+      return;
+  }*/
 }

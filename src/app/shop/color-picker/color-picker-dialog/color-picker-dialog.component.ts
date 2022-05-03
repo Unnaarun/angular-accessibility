@@ -56,7 +56,7 @@ export class ColorPickerDialogComponent implements OnInit {
     }
 
     // TODO: #11. Announce changes with LiveAnnouncer
-    this.liveAnnouncer.announce(`Select color: ${color}`);
+    this.liveAnnouncer.announce(`Select color of your choice: ${color}`);
     this.dialogRef.close();
   }
 

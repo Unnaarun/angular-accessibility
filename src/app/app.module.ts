@@ -15,7 +15,7 @@
  */
 import { NgModule } from '@angular/core';
 import { BrowserModule, Title } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -56,6 +56,7 @@ import { A11yModule } from '@angular/cdk/a11y';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,

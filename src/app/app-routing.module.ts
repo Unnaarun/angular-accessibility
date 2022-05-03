@@ -19,7 +19,7 @@ import { AboutComponent } from './about/about.component';
 import { LocationComponent } from './location/location.component';
 import { ShopComponent } from './shop/shop.component';
 
-// TODO: #4. Define unique page titles
+
 const routes: Routes = [
   { path: 'shop', component: ShopComponent, data: {title: 'Our Shop – a11y in Angular'} },
   { path: 'about', component: AboutComponent, data: {title: 'Our Story - a11y in Angular'} },
